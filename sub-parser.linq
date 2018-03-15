@@ -11,7 +11,7 @@ void Main()
 	const string displayNameKey = "Azure DisplayName";
 	
 	var subs = new Dictionary<string, List<Tuple<string, string, string>>>();
-	using (var file = File.OpenRead(@"C:\...\taiwanOH.txt"))
+	using (var file = File.OpenRead(@"C:\...\test.txt"))
 	using (var reader = new StreamReader(file))
 	{
 		while (!reader.EndOfStream)
